@@ -29,7 +29,8 @@ CycleHeap addresses all of this — and more — while keeping the implementatio
 pip install cycleheap-sort
 
 
-## Usage
+
+##  Usage
 
 ```python
 from cycleheap_sort import cycleheap_adaptive_stable_sort
