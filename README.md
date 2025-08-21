@@ -1,14 +1,33 @@
-# algo-cycleheap-sort-
-# CycleHeap Sort
+# CycleHeap Adaptive Stable Sort
 
-A novel stable hybrid sorting algorithm inspired by Cycle Sort, Heap Sort, and MergeSort principles. 
-Designed for efficient B2B data pipelines with minimal writes and strong stability guarantees.
+**CycleHeap Sort** is a novel, production-ready hybrid sorting algorithm that merges the optimal behaviors of Cycle Sort, Heap Sort, and MergeSort into one stable, adaptive solution.
 
-## Install
+🔹 **Stable** – preserves the order of equal elements  
+🔹 **Adaptive** – performs faster on partially sorted or structured data  
+🔹 **Memory-Efficient** – near in-place sorting  
+🔹 **Scalable** – performs competitively up to 1M+ elements  
+🔹 **Ideal for B2B & Cloud** – reliable for structured datasets in real-world systems
+
+---
+
+## 🚀 Why CycleHeap?
+
+Modern data pipelines, especially in business-to-business (B2B), analytics, and cloud services, often require:
+
+- **Fast, deterministic performance**
+- **Stability for tabular & indexed data**
+- **Adaptivity to pre-sorted input**
+- **Compatibility with `pandas`, `numpy`, or Dask workloads**
+
+CycleHeap addresses all of this — and more — while keeping the implementation lightweight and understandable.
+
+---
+
+## 📦 Installation
 
 ```bash
-pip install cycleheap_sort
-```
+pip install cycleheap-sort
+
 
 ## Usage
 
